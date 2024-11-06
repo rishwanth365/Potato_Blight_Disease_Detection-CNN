@@ -14,7 +14,7 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 - [Dataset](#dataset)
 - [Training the Model](#training-the-model)
 - [TensorFlow Serving](#tensorflow-serving)
-- [Frontend & Deployment](#frontend--deployment)
+- [Frontend & Deployment in Local Machine](#frontend--deployment-in-local-machine)
 - [Model Optimization](#model-optimization)
 - [Mobile App Deployment](#mobile-app-deployment)
 - [Challenges](#challenges)
@@ -81,9 +81,9 @@ docker run -t --rm -p 8501:8501 -v D:/code files/potato-blight-disease-detection
 
 ---
 
-### Frontend & Deployment
+### Frontend & Deployment in Local Machine
 - **Frontend**: HTML, CSS and Java Script
-- **Backend (Local)**: React JS and React Native
+- **Backend (Local)**: Node.js
 #### Deploying in Local Machine
 ```bash
 cd frontend
