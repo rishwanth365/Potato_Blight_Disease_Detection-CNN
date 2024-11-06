@@ -1,6 +1,12 @@
 # Potato Blight Disease Detection using CNN
 
-This project is a machine learning model designed to detect potato leaf diseases, specifically Late Blight, Early Blight, and Healthy leaf samples. Built using Convolutional Neural Networks (CNN), the model has been deployed across web, cloud, and mobile platforms.
+This project is a deep learning model designed to detect potato leaf diseases, specifically Late Blight, Early Blight, and Healthy leaf samples. Built using Convolutional Neural Networks (CNN), the model has been deployed across web, cloud, and mobile platforms.
+
+## Architecture
+![image](https://github.com/user-attachments/assets/1efc0643-5026-485b-845e-a60c103fabc0)
+![image](https://github.com/user-attachments/assets/fe272b86-794f-45df-89bb-5b9245a16e29)
+
+
 
 ## Table of Contents
 - [Dataset](#dataset)
@@ -37,8 +43,7 @@ This project is a machine learning model designed to detect potato leaf diseases
 ### Backend Server
 - **Serving Tool**: TensorFlow Serving
   - **Directory**: Models saved in `saved_models/versions/`
-- **API**: FastAPI used for deployment
-- **Containerization**: Docker used for local deployment
+- **API**: FastAPI used for local deployment using Docker
 - **Directory**: API code in `api/`
 
 ---
@@ -79,4 +84,4 @@ Encountered multiple challenges related to model optimization and deployment, pr
 
 ---
 
-This project showcases a comprehensive approach to deploying machine learning models on various platforms.
+This project showcases a comprehensive approach to deploying deep learning models on various platforms.
