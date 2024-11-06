@@ -159,7 +159,7 @@ Encountered multiple challenges related to model optimization and deployment, pr
 ---
 
 ### References
-- **Learning Resource**: [Codebasics YouTube Channel - Deep Learning Projects](https://www.youtube.com/playlist?list=PLeo1K3hjS3utJFNGyBpIvjWgSDY0eOE8S](https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO)
+- **Learning Resource**: [Codebasics YouTube Channel - Deep Learning Projects](https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO)
 
 ---
 
