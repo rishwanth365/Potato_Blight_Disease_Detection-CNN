@@ -10,7 +10,7 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 
 ## Table of Contents
 - [Dataset](#dataset)
-- [Model Building](#model-building)
+- [Training the Model](#training-the-model)
 - [TensorFlow Serving](#tensorflow-serving)
 - [Model Optimization](#model-optimization)
 - [Frontend & Deployment](#frontend--deployment)
@@ -52,7 +52,7 @@ pip3 install -r api/requirements.txt
 - **API**: FastAPI used for local deployment using Docker
 - **Directory**: API code in `api/`
 - **Install Tensorflow Serving** ([Setup instructions](https://www.tensorflow.org/tfx/serving/setup))
-**Running the API**
+#### Running the API
 
 ##### Using FastAPI
 
@@ -89,7 +89,7 @@ docker run -t --rm -p 8501:8501 -v D:/code files/potato-blight-disease-detection
 ### Frontend & Deployment
 - **Frontend**: HTML, CSS and Java Script
 - **Backend (Local)**: React JS and React Native
-### Deploying in Local Machine
+#### Deploying in Local Machine
 ```bash
 cd frontend
 ```
