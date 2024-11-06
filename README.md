@@ -52,7 +52,7 @@ pip3 install -r api/requirements.txt
 - **API**: FastAPI used for local deployment using Docker
 - **Directory**: API code in `api/`
 - **Install Tensorflow Serving** ([Setup instructions](https://www.tensorflow.org/tfx/serving/setup))
-- **Running the API**
+**Running the API**
 
 ##### Using FastAPI
 
@@ -63,7 +63,7 @@ pip3 install -r api/requirements.txt
 ![image](https://github.com/user-attachments/assets/ddc61a54-f24d-40a7-a165-d19da006e714)
 
 
-##### Using FastAPI & TF Serve
+##### Using FastAPI & TF Serving
 
 1. Get inside `api` folder
 
@@ -97,6 +97,7 @@ docker run -t --rm -p 8501:8501 -v D:/code files/potato-blight-disease-detection
 ```bash
 cd frontend
 ```
+If you don't have Node.js [Install here](https://nodejs.org/en/download/prebuilt-installer)
 ```bash
 npm run start
 ```
