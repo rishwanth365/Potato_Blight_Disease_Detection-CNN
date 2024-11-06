@@ -11,7 +11,7 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 ## Table of Contents
 - [Dataset](#dataset)
 - [Model Building](#model-building)
-- [Backend Server](#backend-server)
+- [TensorFlow Serving](#tensorflow-serving)
 - [Model Optimization](#model-optimization)
 - [Frontend & Deployment](#frontend--deployment)
 - [Mobile App Deployment](#mobile-app-deployment)
@@ -40,7 +40,7 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 
 ---
 
-### Backend Server
+### TensorFlow Serving
 - **Serving Tool**: TensorFlow Serving
   - **Directory**: Models saved in `saved_models/versions/`
 - **API**: FastAPI used for local deployment using Docker
