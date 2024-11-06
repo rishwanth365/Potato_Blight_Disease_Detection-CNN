@@ -5,11 +5,10 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 ## Architecture
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/1efc0643-5026-485b-845e-a60c103fabc0" alt="Architecture 1" width="45%">
+  <img src="https://github.com/user-attachments/assets/1efc0643-5026-485b-845e-a60c103fabc0" alt="Architecture 1" width="50%">
   <img src="https://github.com/user-attachments/assets/fe272b86-794f-45df-89bb-5b9245a16e29" alt="Architecture 2" width="45%">
 </div>
 
----
 
 ## Table of Contents
 - [Dataset](#dataset)
