@@ -60,7 +60,7 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 - **Backend (Local)**: React JS and React Native
 - **Cloud Deployment**: Google Cloud Platform (GCP)
   - **Cloud Function**: Model deployed via Cloud Run
-  - **Endpoint**: [GCP Predict Function URL](https://us-central1-potato-blight-disease-detect.cloudfunctions.net/predict)
+  - **Endpoint**: GCP Predict Function URL: https://us-central1-potato-blight-disease-detect.cloudfunctions.net/predict
   - **Test**: Use POST method in Postman to receive the class label and confidence score.
 
 ---
@@ -68,7 +68,8 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 ### Mobile App Deployment
 - **Platform**: Android & iOS
 - **Framework**: React Native
-- **Model**: Deployed TFLite model for mobile compatibility
+- **Model**: Deployed TFLite model in GCP for mobile compatibility
+- **Endpoint**: GCP predict-lite Function URL for mobile:
 - **Testing**: Verified on Android and iOS emulators
 - **Directory**: Mobile app code in `mobile-app/`
 
