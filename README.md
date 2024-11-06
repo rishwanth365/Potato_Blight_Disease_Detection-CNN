@@ -89,11 +89,7 @@ docker run -t --rm -p 8501:8501 -v D:/code files/potato-blight-disease-detection
 ### Frontend & Deployment
 - **Frontend**: HTML, CSS and Java Script
 - **Backend (Local)**: React JS and React Native
-- **Cloud Deployment**: Google Cloud Platform (GCP)
-- **Cloud Function**: Model deployed via Cloud Run
-- **Endpoint**: GCP Predict Function URL: https://us-central1-potato-blight-disease-detect.cloudfunctions.net/predict
-- **Test**: Send POST request in Postman software to receive the class label and confidence score.
-- **Running the Frontend**
+### Deploying in Local Machine
 ```bash
 cd frontend
 ```
@@ -110,9 +106,8 @@ npm run start
 - **Framework**: React Native
 - **Model**: Deployed TFLite model in GCP for mobile compatibility
 - **Directory**: Mobile app code in `mobile-app/`
----
 
-### Deploying the TF Model(.keras) on GCP
+##### Deploying the TF Model(.keras) on GCP
 
 1. Create a [GCP account](https://console.cloud.google.com/freetrial/signup/tos?_ga=2.25841725.1677013893.1627213171-706917375.1627193643&_gac=1.124122488.1627227734.Cj0KCQjwl_SHBhCQARIsAFIFRVVUZFV7wUg-DVxSlsnlIwSGWxib-owC-s9k6rjWVaF4y7kp1aUv5eQaAj2kEALw_wcB).
 2. Create a [Project on GCP](https://cloud.google.com/appengine/docs/standard/nodejs/building-app/creating-project) (Keep note of the project id).
@@ -135,10 +130,8 @@ gcloud functions deploy predict --runtime python312 --trigger-http --memory 1024
 8. Your model is now deployed.
 9. Use Postman to test the GCF using the GCP predict Function URL: https://us-central1-potato-blight-disease-detect.cloudfunctions.net/predict
 
----
 
-
-### Deploying the TF Lite (.tflite) on GCP
+##### Deploying the TF Lite (.tflite) on GCP
 
 1. Upload the 3.tflite model in the bucket in the path `models/3.tflite` from `tf-lite-models` directory.
 2. Authenticate with Google Cloud SDK.
