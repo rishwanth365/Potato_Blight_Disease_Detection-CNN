@@ -12,8 +12,8 @@ This project is a deep learning model designed to detect potato leaf diseases, s
 - [Dataset](#dataset)
 - [Training the Model](#training-the-model)
 - [TensorFlow Serving](#tensorflow-serving)
-- [Model Optimization](#model-optimization)
 - [Frontend & Deployment](#frontend--deployment)
+- [Model Optimization](#model-optimization)
 - [Mobile App Deployment](#mobile-app-deployment)
 - [Challenges](#challenges)
 - [References](#references)
@@ -79,13 +79,6 @@ docker run -t --rm -p 8501:8501 -v D:/code files/potato-blight-disease-detection
 
 ---
 
-### Model Optimization
-- **Conversion**: Converted the model to TensorFlow Lite (TFLite) and quantized for optimization.
-- **Saved Models**: TFLite models are in `tf-lite-models/`
-- **Optimization Code**: Check `training/` directory for related `.ipynb` files.
-
----
-
 ### Frontend & Deployment
 - **Frontend**: HTML, CSS and Java Script
 - **Backend (Local)**: React JS and React Native
@@ -98,6 +91,12 @@ If you don't have Node.js [Install here](https://nodejs.org/en/download/prebuilt
 npm run start
 ```
 ![image](https://github.com/user-attachments/assets/2f48b9b0-8780-42f0-b5e7-bb3a5a42a1d3)
+
+---
+### Model Optimization
+- **Conversion**: Converted the model to TensorFlow Lite (TFLite) and quantized for optimization.
+- **Saved Models**: TFLite models are in `tf-lite-models/`
+- **Optimization Code**: Check `training/` directory for related `.ipynb` files.
 
 ---
 
