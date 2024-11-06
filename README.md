@@ -100,6 +100,7 @@ cd frontend
 ```bash
 npm run start
 ```
+![image](https://github.com/user-attachments/assets/2f48b9b0-8780-42f0-b5e7-bb3a5a42a1d3)
 
 ---
 
