@@ -87,8 +87,11 @@ docker run -t --rm -p 8501:8501 -v D:/code files/potato-blight-disease-detection
 #### Deploying in Local Machine
 ```bash
 cd frontend
+npm install --from-lock-json
+npm audit fix
 ```
 If you don't have Node.js [Install here](https://nodejs.org/en/download/prebuilt-installer)
+Recommended to use Git Bash to run thease commands
 ```bash
 npm run start
 ```
